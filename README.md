@@ -15,11 +15,12 @@ I've simplified the dependencies and customisation to avoid side effects.
 # Installation
 
 ```
-> git clone 
-> npm install
+> git clone https://github.com/ncoquelet/lowdb_esm_issue
+> cd lowdb_esm_issue
+> npm install 
 ```
 
-# Issue
+# Problems
 
 Without lowdb everything works fine, but when I instantiate any lowdb class, I get these errors, both in next build and in the jest execution.
 
@@ -35,7 +36,7 @@ Without lowdb everything works fine, but when I instantiate any lowdb class, I g
 ```
 
 <details>
-<summary>full log</summary>
+<summary>full log here</summary>
 
 ```shell
 lowdb_esm_issue@0.1.0 build
@@ -155,7 +156,7 @@ Process finished with exit code 1
 ```
 
 <details>
-<summary>full log</summary>
+<summary>full log here</summary>
 
 ```shell
 lowdb_esm_issue@0.1.0 test
